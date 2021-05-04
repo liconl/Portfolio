@@ -1,0 +1,59 @@
+.header_links {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+  z-index: 1;
+}
+
+.header_links div {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 24px;
+  z-index: 20;
+}
+
+.header_link {
+  text-decoration: none !important;
+}
+
+.header_description {
+  font-style: italic;
+  text-decoration: none !important;
+}
+
+.header_controls {
+  position: absolute;
+  left: 3%;
+  bottom: 0%;
+  z-index: 5;
+  zoom: 90%;
+  -moz-animation: cssAnimation 0s ease-in 7.5s forwards;
+  -webkit-animation: cssAnimation 0s ease-in 7.5s forwards;
+  animation-fill-mode: forwards;
+}
+
+.content {
+  font-style: 33px;
+  color: white;
+}
+
+@keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header_controls {
+    display: none;
+  }
+  .logo {
+    font-size: 16px;
+    margin-left: -5%;
+  }
+}
