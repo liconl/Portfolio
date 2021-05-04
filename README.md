@@ -1,4 +1,5 @@
-Speical thanks to @wrongakram for the great three.js videos and the fiber boiler plate.
+![portfolio](https://user-images.githubusercontent.com/60866363/116955286-f4d1a400-ac46-11eb-90d7-1daa7328bf89.png)
+ 
 
 
 
